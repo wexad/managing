@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <link rel="stylesheet" href="css/employee-details.css">
+</head>
+<body>
+<h2 class="text-center">Employee Details</h2>
+<div>
+    <button type="button">
+        <a href="employees.html">Back to Employees List</a>
+    </button>
+</div>
+<div class="container">
+    <div id="employeeDetails">
+    </div>
+    <h3>Update Employee</h3>
+    <form id="updateForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+</div>
+
+<script src="../js/employee-details.js"></script>
+</body>
+</html>
