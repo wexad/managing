@@ -12,6 +12,7 @@ This is an Employee Management System built using HTML, CSS, and JavaScript for 
 - **Responsive Design**: The application is designed to be responsive and user-friendly.
 
 ## File Structure
+```
 managing
 ├── src
 │   ├── main
@@ -49,6 +50,7 @@ managing
         └── com
             └── wexad
                 └── ManagingApplicationTests.java
+```
 
 ## Installation
 
